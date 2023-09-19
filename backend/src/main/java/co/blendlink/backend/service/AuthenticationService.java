@@ -45,16 +45,16 @@ public class AuthenticationService {
     }
 
     public LoginResponseDTO loginUser(String username, String password) {
-        try {
+        try{
             Authentication auth = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(username, password)
             );
+
             String token = tokenService.generateJwt(auth);
-            return new LoginResponseDTO(
-                    userRepository.findApplicationUserByUsername(username)
-                            .orElseThrow(() -> new UsernameNotFoundException("No such user found.")),
-                    token);
-        } catch (AuthenticationException e) {
+
+            return new LoginResponseDTO(userRepository.findApplicationUserByUsername(username).get(), token);
+
+        } catch(AuthenticationException e){
             return new LoginResponseDTO(null, "");
         }
     }
