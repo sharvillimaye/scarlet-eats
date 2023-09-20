@@ -1,6 +1,6 @@
 package co.blendlink.backend;
 
-import co.blendlink.backend.model.entity.ApplicationUser;
+import co.blendlink.backend.model.entity.User;
 import co.blendlink.backend.model.entity.Role;
 import co.blendlink.backend.repository.RoleRepository;
 import co.blendlink.backend.repository.UserRepository;
@@ -33,7 +33,7 @@ public class BackendApplication {
 			Set<Role> roles = new HashSet<>();
 			roles.add(adminRole);
 
-			ApplicationUser admin = new ApplicationUser(1, "admin", passwordEncoder.encode("password"), roles);
+			User admin = new User(1, "admin", passwordEncoder.encode("password"), roles);
 			userRepository.save(admin);
 		};
 	}
