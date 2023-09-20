@@ -13,7 +13,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Entity
 @Table(name = "Users")
-public class ApplicationUser implements UserDetails {
+public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "user_id")
@@ -32,7 +32,7 @@ public class ApplicationUser implements UserDetails {
     )
     private Set<Role> authorities;
 
-    public ApplicationUser(String username, String password, Set<Role> authorities) {
+    public User(String username, String password, Set<Role> authorities) {
         this.username = username;
         this.password = password;
         this.authorities = authorities;

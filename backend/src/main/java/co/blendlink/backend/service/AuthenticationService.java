@@ -1,7 +1,7 @@
 package co.blendlink.backend.service;
 
 import co.blendlink.backend.model.dto.LoginResponseDTO;
-import co.blendlink.backend.model.entity.ApplicationUser;
+import co.blendlink.backend.model.entity.User;
 import co.blendlink.backend.model.entity.Role;
 import co.blendlink.backend.repository.RoleRepository;
 import co.blendlink.backend.repository.UserRepository;
@@ -11,7 +11,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -36,12 +35,12 @@ public class AuthenticationService {
     @Autowired
     private TokenService tokenService;
 
-    public ApplicationUser registerUser(String username, String password) {
+    public User registerUser(String username, String password) {
         String encodedPassword = passwordEncoder.encode(password);
         Role userRole = roleRepository.findRoleByAuthority("USER").get();
         Set<Role> authorities = new HashSet<>();
         authorities.add(userRole);
-        return userRepository.save(new ApplicationUser(0, username, encodedPassword, authorities));
+        return userRepository.save(new User(0, username, encodedPassword, authorities));
     }
 
     public LoginResponseDTO loginUser(String username, String password) {

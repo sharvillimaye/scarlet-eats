@@ -1,6 +1,6 @@
 package co.blendlink.backend.model.dto;
 
-import co.blendlink.backend.model.entity.ApplicationUser;
+import co.blendlink.backend.model.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoginResponseDTO {
-    private ApplicationUser user;
+    private User user;
     private String jwt;
 }
