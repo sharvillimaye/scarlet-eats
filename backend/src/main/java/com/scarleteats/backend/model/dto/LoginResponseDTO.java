@@ -1,6 +1,6 @@
-package co.blendlink.backend.model.dto;
+package com.scarleteats.backend.model.dto;
 
-import co.blendlink.backend.model.entity.User;
+import com.scarleteats.backend.model.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

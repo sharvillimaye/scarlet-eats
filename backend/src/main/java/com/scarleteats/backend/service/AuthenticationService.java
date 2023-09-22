@@ -1,10 +1,10 @@
-package co.blendlink.backend.service;
+package com.scarleteats.backend.service;
 
-import co.blendlink.backend.model.dto.LoginResponseDTO;
-import co.blendlink.backend.model.entity.User;
-import co.blendlink.backend.model.entity.Role;
-import co.blendlink.backend.repository.RoleRepository;
-import co.blendlink.backend.repository.UserRepository;
+import com.scarleteats.backend.model.dto.LoginResponseDTO;
+import com.scarleteats.backend.model.entity.User;
+import com.scarleteats.backend.model.entity.Role;
+import com.scarleteats.backend.repository.RoleRepository;
+import com.scarleteats.backend.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

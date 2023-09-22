@@ -1,4 +1,4 @@
-package co.blendlink.backend.model.entity;
+package com.scarleteats.backend.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

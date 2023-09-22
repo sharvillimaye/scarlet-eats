@@ -1,6 +1,6 @@
-package co.blendlink.backend.repository;
+package com.scarleteats.backend.repository;
 
-import co.blendlink.backend.model.entity.Role;
+import com.scarleteats.backend.model.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

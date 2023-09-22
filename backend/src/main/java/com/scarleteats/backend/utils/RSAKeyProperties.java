@@ -1,4 +1,4 @@
-package co.blendlink.backend.utils;
+package com.scarleteats.backend.utils;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;

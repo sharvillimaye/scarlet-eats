@@ -1,6 +1,6 @@
-package co.blendlink.backend.configuration;
+package com.scarleteats.backend.configuration;
 
-import co.blendlink.backend.utils.RSAKeyProperties;
+import com.scarleteats.backend.utils.RSAKeyProperties;
 import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;

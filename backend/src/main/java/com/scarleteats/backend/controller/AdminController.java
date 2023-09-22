@@ -1,4 +1,4 @@
-package co.blendlink.backend.controller;
+package com.scarleteats.backend.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

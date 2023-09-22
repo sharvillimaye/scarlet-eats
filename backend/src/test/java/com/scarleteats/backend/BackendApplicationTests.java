@@ -1,4 +1,4 @@
-package co.blendlink.backend;
+package com.scarleteats.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

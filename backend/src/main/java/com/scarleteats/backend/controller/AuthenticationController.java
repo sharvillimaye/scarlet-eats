@@ -1,9 +1,9 @@
-package co.blendlink.backend.controller;
+package com.scarleteats.backend.controller;
 
-import co.blendlink.backend.model.dto.LoginResponseDTO;
-import co.blendlink.backend.model.dto.RegistrationDTO;
-import co.blendlink.backend.model.entity.User;
-import co.blendlink.backend.service.AuthenticationService;
+import com.scarleteats.backend.model.dto.LoginResponseDTO;
+import com.scarleteats.backend.model.dto.RegistrationDTO;
+import com.scarleteats.backend.model.entity.User;
+import com.scarleteats.backend.service.AuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
