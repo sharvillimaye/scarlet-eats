@@ -14,7 +14,7 @@ public class AuthenticationController {
     @Autowired
     private AuthenticationService authenticationService;
 
-    //TODO : do not return ApplicationUSer return a DTO
+    //TODO : do not return ApplicationUser return a DTO
     @PostMapping("/register")
     public User registerUser(@RequestBody RegistrationDTO registrationDTO) {
         return authenticationService.registerUser(registrationDTO.getUsername(), registrationDTO.getPassword());
