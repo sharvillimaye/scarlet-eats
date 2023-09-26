@@ -1,4 +1,4 @@
-package com.scarleteats.backend.utils;
+package com.scarleteats.backend.security.utils;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;

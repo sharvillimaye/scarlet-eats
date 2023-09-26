@@ -1,4 +1,4 @@
-package com.scarleteats.backend.service;
+package com.scarleteats.backend.security.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

@@ -1,4 +1,4 @@
-package com.scarleteats.backend.utils;
+package com.scarleteats.backend.security.utils;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;

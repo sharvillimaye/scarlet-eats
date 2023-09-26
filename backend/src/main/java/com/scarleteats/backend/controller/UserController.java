@@ -1,4 +1,4 @@
-package com.scarleteats.backend.controller;
+package com.scarleteats.backend.security.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

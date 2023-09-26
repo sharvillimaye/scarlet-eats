@@ -1,6 +1,6 @@
-package com.scarleteats.backend.service;
+package com.scarleteats.backend.security.service;
 
-import com.scarleteats.backend.repository.UserRepository;
+import com.scarleteats.backend.security.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

@@ -1,6 +1,6 @@
-package com.scarleteats.backend.repository;
+package com.scarleteats.backend.security.repository;
 
-import com.scarleteats.backend.model.entity.Role;
+import com.scarleteats.backend.security.model.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

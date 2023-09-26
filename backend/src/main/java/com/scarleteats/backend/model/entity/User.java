@@ -1,4 +1,4 @@
-package com.scarleteats.backend.model.entity;
+package com.scarleteats.backend.security.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

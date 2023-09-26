@@ -1,9 +1,9 @@
-package com.scarleteats.backend.controller;
+package com.scarleteats.backend.security.controller;
 
-import com.scarleteats.backend.model.dto.LoginResponseDTO;
-import com.scarleteats.backend.model.dto.RegistrationDTO;
-import com.scarleteats.backend.model.entity.User;
-import com.scarleteats.backend.service.AuthenticationService;
+import com.scarleteats.backend.security.model.dto.LoginResponseDTO;
+import com.scarleteats.backend.security.model.dto.RegistrationDTO;
+import com.scarleteats.backend.security.model.entity.User;
+import com.scarleteats.backend.security.service.AuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

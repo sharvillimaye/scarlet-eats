@@ -1,6 +1,6 @@
-package com.scarleteats.backend.configuration;
+package com.scarleteats.backend.security.configuration;
 
-import com.scarleteats.backend.utils.RSAKeyProperties;
+import com.scarleteats.backend.security.utils.RSAKeyProperties;
 import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
