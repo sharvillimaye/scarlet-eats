@@ -1,6 +1,6 @@
 # Scarlet Eats
 
-Scarlet Eats is an open-source food and calorie tracking app designed for university students to promote healthy eating and fitness. It empowers users to effortlessly track their calorie consumption, monitor essential macronutrients, and gain insight into their overall health. By seamlessly integrating with smartphone and wearable health data, such as calories burned and daily step counts, Scarlet Eats provides students with a holistic view of their well-being throughout their college journey.
+[Scarlet Eats](https://scarleteats.com) is an open-source food and calorie tracking app designed for university students to promote healthy eating and fitness. It empowers users to effortlessly track their calorie consumption, monitor essential macronutrients, and gain insight into their overall health. By seamlessly integrating with smartphone and wearable health data, such as calories burned and daily step counts, Scarlet Eats provides students with a holistic view of their well-being throughout their college journey.
 
 ## Table of Contents
 
@@ -10,17 +10,31 @@ Scarlet Eats is an open-source food and calorie tracking app designed for univer
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage) 
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Features
+
+- Web scraping of dining hall data to provide real-time food information.
+- User-friendly interface for adding and saving food items.
+- Tracking of calorie consumption, macronutrients (protein, carbohydrates, fats), and other nutritional data.
+- Integration with the phone's step counter for activity tracking.
+- Customizable user profiles and nutrition goals.
+- Weekly and monthly graphs for visualizing nutrition and fitness progress.
+- Barcode scanning for easy food item entry.
 
 ## Roadmap
 
+1. Build the MVP for a website
+2. Build the MVP for an app
+3. Add functionality for barcode scanning, graphs, step counter, etc.
+4. Launch!
+
 ## Tech Stack
+
+- **Frontend:** Angular
+- **Backend:** Spring
 
 ## Getting Started
 
@@ -34,11 +48,17 @@ Before you begin, ensure you have met the following requirements:
 
 1. [Provide step-by-step installation instructions here]
 
-## Usage
-
-[Provide detailed usage instructions here in a video format, including how to use and navigate the app, add food items, set goals, and any other relevant information.]
-
 ## Contributing
+
+We welcome contributions from the open-source community. To contribute to Scarlet Ets, follow these steps:
+
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to your branch: `git push origin feature/your-feature-name`.
+5. Create a pull request.
+
+For major changes, please open an issue first to discuss the proposed changes.
 
 ## License
 
