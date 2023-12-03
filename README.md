@@ -4,12 +4,6 @@ Scarlet Eats is an open-source food and calorie tracking app designed for univer
 
 _This project is currently under development, and is set to launch in January 2024._
 
-# Your Project Name
-
-## Project Overview
-
-Briefly describe your project and its goals.
-
 ## Roadmap
 
 ### Phase 1: Backend Development
