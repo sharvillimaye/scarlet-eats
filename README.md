@@ -1,68 +1,46 @@
 # Scarlet Eats
 
-[Scarlet Eats](https://scarleteats.com) is an open-source food and calorie tracking app designed for university students to promote healthy eating and fitness. It empowers users to effortlessly track their calorie consumption, monitor essential macronutrients, and gain insight into their overall health. By seamlessly integrating with smartphone and wearable health data, such as calories burned and daily step counts, Scarlet Eats provides students with a holistic view of their well-being throughout their college journey.
+Scarlet Eats is an open-source food and calorie tracking app designed for university students to promote healthy eating and fitness. It empowers users to effortlessly track their calorie consumption, monitor essential macronutrients, and gain insight into their overall health. By seamlessly integrating with smartphone and wearable health data, such as calories burned and daily step counts, Scarlet Eats provides students with a holistic view of their well-being throughout their college journey. _This project is currently under development, and is set to launch in January 2024._
 
-## Table of Contents
+# Your Project Name
 
-- [Features](#features)
-- [Roadmap](#roadmap)
-- [Tech Stack](#tech-stack) 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+## Project Overview
 
-## Features
-
-- Web scraping of dining hall data to provide real-time food information.
-- User-friendly interface for adding and saving food items.
-- Tracking of calorie consumption, macronutrients (protein, carbohydrates, fats), and other nutritional data.
-- Integration with the phone's step counter for activity tracking.
-- Customizable user profiles and nutrition goals.
-- Weekly and monthly graphs for visualizing nutrition and fitness progress.
-- Barcode scanning for easy food item entry.
+Briefly describe your project and its goals.
 
 ## Roadmap
 
-1. Build the MVP for a website
-2. Build the MVP for an app
-3. Add functionality for barcode scanning, graphs, step counter, etc.
-4. Launch!
+### Phase 1: Backend Development
 
-## Tech Stack
+- [x] Set up basic REST API using Spring Boot.
+- [x] Implement Spring Security for authentication.
+- [x] Integrate OAuth2 for secure authorization.
 
-- **Frontend:** Angular
-- **Backend:** Spring
+### Phase 2: Database Schema Design
 
-## Getting Started
+- [ ] Define and implement the database schema.
+- [ ] Establish relationships between entities.
+- [ ] Ensure database optimization and data integrity.
 
-### Prerequisites
+### Phase 3: Frontend Development
 
-Before you begin, ensure you have met the following requirements:
+- [ ] Start building the frontend components.
+- [ ] Integrate frontend with the existing REST API.
+- [ ] Implement user interfaces for key features.
 
-- [List any prerequisites here]
+### Phase 4: Integration and Testing
 
-### Installation
+- [ ] Integrate frontend and backend components.
+- [ ] Conduct comprehensive testing for functionality and security.
+- [ ] Address and resolve any identified issues.
 
-1. [Provide step-by-step installation instructions here]
+### Phase 5: Deployment
 
-## Contributing
-
-We welcome contributions from the open-source community. To contribute to Scarlet Ets, follow these steps:
-
-1. Fork the repository.
-2. Create a branch: `git checkout -b feature/your-feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to your branch: `git push origin feature/your-feature-name`.
-5. Create a pull request.
-
-For major changes, please open an issue first to discuss the proposed changes.
+- [ ] Set up deployment environments (e.g., staging, production).
+- [ ] Configure continuous integration and continuous deployment (CI/CD).
+- [ ] Deploy the application to production.
 
 ## License
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
-## Acknowledgments
+This project is licensed under the MIT License.
 
