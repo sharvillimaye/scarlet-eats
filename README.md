@@ -30,20 +30,6 @@ _This project is currently under development, and is set to launch in January 20
 - [ ] Conduct comprehensive testing for functionality and security.
 - [ ] Address and resolve any identified issues.
 
-### Phase 5: Deployment
-
-## Contributing
-
-We welcome contributions from the open-source community. To contribute to Scarlet Eats, follow these steps:
-
-1. Fork the repository.
-2. Create a branch: `git checkout -b feature/your-feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to your branch: `git push origin feature/your-feature-name`.
-5. Create a pull request.
-
-For major changes, please open an issue first to discuss the proposed changes.
-
 ## License
 
 This project is licensed under the MIT License.
