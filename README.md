@@ -12,11 +12,11 @@ _This project is currently under development, and is set to launch in January 20
 - [x] Implement Spring Security for authentication.
 - [x] Integrate OAuth2 for secure authorization.
 
-### Phase 2: Database Schema Design
+### Phase 2: Database Schema Design (In Progress)
 
-- [ ] Define and implement the database schema.
-- [ ] Establish relationships between entities.
-- [ ] Ensure database optimization and data integrity.
+- [x] Define and implement the database schema.
+- [x] Establish connectivity with database schema using JDBC and HikariCP
+- [ ] Establish relationships between entities, ensure database optimization, and data integrity.
 
 ### Phase 3: Frontend Development
 
