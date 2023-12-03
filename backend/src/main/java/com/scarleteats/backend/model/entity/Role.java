@@ -1,4 +1,4 @@
-package com.scarleteats.backend.security.model.entity;
+package com.scarleteats.backend.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -16,6 +16,7 @@ public class Role implements GrantedAuthority {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "role_id")
     private Integer roleID;
+
     private String authority;
 
     public Role(String authority) {

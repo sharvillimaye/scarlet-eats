@@ -1,5 +1,6 @@
-package com.scarleteats.backend.security.model.entity;
+package com.scarleteats.backend.model.entity;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,13 +16,17 @@ import java.util.Set;
 @Table(name = "Users")
 public class User implements UserDetails {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "user_id")
+    @GeneratedValue
+    @Column(name = "user_id", nullable = false)
     private Integer userID;
 
-    @Column(unique = true)
-    private String username;
+    @Column(nullable = false)
+    private String name;
 
+    @Column(unique = true, nullable = false)
+    private String email;
+
+    @Column(nullable = false)
     private String password;
 
     @ManyToMany(fetch = FetchType.EAGER)
@@ -32,11 +37,15 @@ public class User implements UserDetails {
     )
     private Set<Role> authorities;
 
-    public User(String username, String password, Set<Role> authorities) {
-        this.username = username;
-        this.password = password;
-        this.authorities = authorities;
-    }
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @PrimaryKeyJoinColumn
+    private Profile profile;
+
+    @OneToMany(fetch = FetchType.LAZY)
+    private Set<Meal> meals;
+
+    @OneToMany(fetch = FetchType.LAZY)
+    private Set<Activity> activities;
 
     @Override
     public boolean isAccountNonExpired() {

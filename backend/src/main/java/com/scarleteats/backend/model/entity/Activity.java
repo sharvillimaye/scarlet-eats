@@ -1,2 +1,4 @@
-package com.scarleteats.backend.model.entity;public class Activity {
+package com.scarleteats.backend.model.entity;
+
+public class Activity {
 }

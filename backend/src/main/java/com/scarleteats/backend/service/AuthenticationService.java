@@ -1,10 +1,10 @@
-package com.scarleteats.backend.security.service;
+package com.scarleteats.backend.service;
 
-import com.scarleteats.backend.security.model.dto.LoginResponseDTO;
-import com.scarleteats.backend.security.model.entity.User;
-import com.scarleteats.backend.security.model.entity.Role;
-import com.scarleteats.backend.security.repository.RoleRepository;
-import com.scarleteats.backend.security.repository.UserRepository;
+import com.scarleteats.backend.model.dto.LoginResponseDTO;
+import com.scarleteats.backend.model.entity.User;
+import com.scarleteats.backend.model.entity.Role;
+import com.scarleteats.backend.repository.RoleRepository;
+import com.scarleteats.backend.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

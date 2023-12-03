@@ -1,4 +1,4 @@
-package com.scarleteats.backend.security.model.dto;
+package com.scarleteats.backend.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

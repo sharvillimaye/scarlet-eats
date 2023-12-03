@@ -1,9 +1,13 @@
-package com.scarleteats.backend.security.utils;
+package com.scarleteats.backend.utils;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 
 public class KeyGeneratorUtility {
+
+    private KeyGeneratorUtility() {
+        throw new IllegalStateException("Utility class");
+    }
 
     public static KeyPair generateRsaKey() {
         KeyPair keyPair;

@@ -33,8 +33,11 @@
 
 ## Tech Stack
 
-- **Frontend:** Angular
-- **Backend:** Spring
+**Frontend**
+- Angular
+
+**Backend**
+- 
 
 ## Getting Started
 
@@ -50,7 +53,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Contributing
 
-We welcome contributions from the open-source community. To contribute to Scarlet Ets, follow these steps:
+We welcome contributions from the open-source community. To contribute to Scarlet Eats, follow these steps:
 
 1. Fork the repository.
 2. Create a branch: `git checkout -b feature/your-feature-name`.

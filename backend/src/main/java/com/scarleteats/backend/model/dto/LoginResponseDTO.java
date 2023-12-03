@@ -1,6 +1,6 @@
-package com.scarleteats.backend.security.model.dto;
+package com.scarleteats.backend.model.dto;
 
-import com.scarleteats.backend.security.model.entity.User;
+import com.scarleteats.backend.model.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
