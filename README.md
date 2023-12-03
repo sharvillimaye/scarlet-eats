@@ -12,11 +12,7 @@ _This project is currently under development, and is set to launch in January 20
 - [x] Implement Spring Security for authentication.
 - [x] Integrate OAuth2 for secure authorization.
 
-**Frontend**
-- Angular
-
-**Backend**
-- 
+### Phase 2: Database Development
 
 - [x] Define and implement the database schema.
 - [x] Establish connectivity with database schema using JDBC and HikariCP
